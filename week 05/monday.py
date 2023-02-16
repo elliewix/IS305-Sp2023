@@ -26,9 +26,10 @@ with open('pokemon_names_and_descriptions.csv', 'r', encoding='utf-8') as infile
 # print(headers)
 # print(data[:5])
 
-
-for row in data:
-    dex = row[0]
-    name = row[1]
-    print(dex, name)
-    notes = row[2]
+# some changes
+#
+# for row in data:
+#     dex = row[0]
+#     name = row[1]
+#     print(dex, name)
+#     notes = row[2]
